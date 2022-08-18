@@ -1,0 +1,42 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'd:/Tools/Workspace/OS Kernel'
+ 
+-i was unexpected at this time.
+
+The system cannot find the path specified.
+
+The system cannot find the path specified.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+mkdir build
+ 
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+ld -z max-page-size=4096 --script kernel.ld -o kernel    --library-path . --library=:lib/hw.lib --library=:lib/mem.lib --library=:lib/console.lib --library-path . --library=:lib/hw.lib --library=:lib/mem.lib --library=:lib/console.lib
+objdump --source kernel > kernel.asm
+make: Leaving directory 'd:/Tools/Workspace/OS Kernel'
+ 

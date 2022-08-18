@@ -1,0 +1,494 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+-i was unexpected at this time.
+
+The system cannot find the path specified.
+
+The system cannot find the path specified.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 18 12:39:44 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-18.0.1.1
+# makefile (from 'Makefile', line 85)
+SOURCES_CPP = $(shell find . -name "*.cpp" -printf "%P ")
+# makefile (from 'Makefile', line 35)
+AS = ${TOOLPREFIX}as
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\VGenesis
+# environment
+VBOX_MSI_INSTALL_PATH = D:\Tools\VirtualBox\
+# makefile (from 'Makefile', line 119)
+QEMUGDB = $(shell if ${QEMU} -help | grep -q '^-gdb'; then echo "-gdb tcp::${GDBPORT}"; else echo "-s -p ${GDBPORT}"; fi)
+# environment
+LOCALAPPDATA = C:\Users\VGenesis\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0476590a-98ff-4095-8d50-9a6d683c042d-sock
+# makefile (from 'Makefile', line 117)
+GDBPORT = $(shell expr `id -u` % 5000 + 25000)
+# environment
+VSCODE_CWD = C:\Program Files\VSCodium
+# makefile (from 'Makefile', line 5)
+DEBUG_FLAG = -D DEBUG_PRINT=0
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'Makefile', line 10)
+LIBS = ${DIR_LIBS}/hw.lib ${DIR_LIBS}/mem.lib ${DIR_LIBS}/console.lib
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'Makefile', line 1)
+DIR_BUILD = build
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# makefile (from 'Makefile', line 3)
+DIR_INC = h
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\VGenesis\AppData\Roaming\VSCodium\CachedData\30d9c6cd9483b2cc586687151b 
+cbcd635f373630
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\VGenesis\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# makefile (from 'Makefile', line 123)
+CPU_CORE_COUNT = 1
+# environment
+ONEDRIVE = C:\Users\VGenesis\OneDrive
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = D:\Tools\IntelliJ IDEA Community Edition 2022.1.1\bin;
+# makefile
+CURDIR := d:/Tools/Workspace/OS Kernel
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 71)
+LDSCRIPT = kernel.ld
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# makefile (from 'Makefile', line 42)
+ASFLAGS = -ggdb -march=rv64ima -mabi=lp64
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 14832
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+__PSLOCKDOWNPOLICY = 0
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\VGenesis
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# environment
+M2 = C:\Program Files\Maven\apache-maven-3.8.6\bin
+# makefile (from 'Makefile', line 40)
+OBJDUMP = ${TOOLPREFIX}objdump
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Users\VGenesis\.cargo\bin;D:\Tools\Git\cmd;C:\Program Files\VSCodium\bin;C:\Program Files\Maven\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;D:\Tools\NodeJS\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;D:\Tools\Docker\Docker\;D:\Tools\Docker\Docker\resources\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\qemu;C:\Program Files\Docker\Docker\resources;C:\Users\VGenesis\AppData\Local\bin\NASM;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Tools\Miniconda;D:\Tools\Miniconda\Library\mingw-w64\bin;D:\Tools\Miniconda\Library\usr\bin;D:\Tools\Miniconda\Library\bin;D:\Tools\Miniconda\Scripts;C:\Users\VGenesis\miniconda3;C:\Users\VGenesis\miniconda3\Library\mingw-w64\bin;C:\Users\VGenesis\miniconda3\Library\usr\bin;C:\Users\VGenesis\miniconda3\Library\bin;C:\Users\VGenesis\miniconda3\Scripts;C:\Users\VGenesis\.cargo\bin;C:\Users\VGenesis\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\VGenesis\AppData\Roaming\npm;C:\Program Files\qemu;
+# environment
+COMPUTERNAME = VGENESIS
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 73)
+LDLIBS = --library-path . $(patsubst %,--library=:%,${LIBS})
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133025445448454339
+# makefile (from 'Makefile', line 7)
+KERNEL_IMG = kernel
+# makefile (from 'Makefile', line 8)
+KERNEL_ASM = kernel.asm
+# environment
+LOGONSERVER = \\VGENESIS
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = VGenesis
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MAVEN_HOME = C:\Program Files\Maven\apache-maven-3.8.6
+# makefile (from 'Makefile', line 86)
+OBJECTS = $(addprefix ${DIR_BUILD}/,${SOURCES_ASM:.S=.o}) $(addprefix ${DIR_BUILD}/,${SOURCES:.c=.o}) $(addprefix ${DIR_BUILD}/,${SOURCES_CPP:.cpp=.o})
+# environment
+USERDOMAIN = VGENESIS
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 33)
+QEMU = qemu-system-riscv64
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 1
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 72)
+LDFLAGS = -z max-page-size=4096 --script ${LDSCRIPT}
+# environment
+USERDOMAIN_ROAMINGPROFILE = VGENESIS
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\VGenesis\AppData\Roaming
+# makefile (from 'Makefile', line 51)
+CFLAGS = -Wall -Werror -Og -ggdb -nostdlib -march=rv64ima -mabi=lp64 -mcmodel=medany -mno-relax -fno-omit-frame-pointer -ffreestanding -fno-common $(shell ${CC} -fno-stack-protector -E -x c /dev/null >/dev/null 2>&1 && echo -fno-stack-protector) ${DEBUG_FLAG} -MMD -MP -MF"${@:%.o=%.d}"
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'Makefile', line 21)
+TOOLPREFIX := 
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\VGenesis\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\badf6f00235ad50d86958a85cd937ab2-1.68.1-main-sock
+# makefile (from 'Makefile', line 2)
+DIR_LIBS = lib
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 38)
+LD = ${TOOLPREFIX}ld
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 69)
+CXXFLAGS = -Wall -Werror -Og -ggdb -nostdlib -std=c++11 -march=rv64ima -mabi=lp64 -mcmodel=medany -mno-relax -fno-omit-frame-pointer -ffreestanding -fno-common -fno-rtti -fno-threadsafe-statics $(shell ${CXX} -fno-stack-protector -E -x c /dev/null >/dev/null 2>&1 && echo -fno-stack-protector) ${DEBUG_FLAG} -MMD -MP -MF"${@:%.o=%.d}"
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# makefile (from 'Makefile', line 124)
+QEMUOPTS = -machine virt -bios none -kernel ${KERNEL_IMG} -m 128M -smp ${CPU_CORE_COUNT} -nographic
+# environment
+PROCESSOR_REVISION = 6001
+# makefile (from 'Makefile', line 37)
+CXX = ${TOOLPREFIX}g++
+# makefile (from 'Makefile', line 36)
+CC = ${TOOLPREFIX}gcc
+# makefile (from 'Makefile', line 39)
+OBJCOPY = ${TOOLPREFIX}objcopy
+# makefile (from 'Makefile', line 81)
+SOURCES = $(shell find . -name "*.c" -printf "%P ")
+# makefile (from 'Makefile', line 77)
+SOURCES_ASM = $(shell find . -name "*.S" -printf "%P ")
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+# variable set hash-table stats:
+# Load=131/1024=13%, Rehash=0, Collisions=16/270=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# build: could not be stat'd.
+# . (key d:/Tools/Workspace/OS Kernel, mtime 1660814899): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+build/%.o: %.cpp Makefile | build
+#  recipe to execute (from 'Makefile', line 96):
+	@mkdir -p $(dir ${@})
+	${CXX} -c ${CXXFLAGS} -Wa,-a,-ad,-alms=${DIR_BUILD}/${<:.cpp=.lst} -o ${@} ${<}
+
+build/%.o: %.c Makefile | build
+#  recipe to execute (from 'Makefile', line 100):
+	@mkdir -p $(dir ${@})
+	${CC} -c ${CFLAGS} -Wa,-a,-ad,-alms=${DIR_BUILD}/${<:.c=.lst} -o ${@} ${<}
+
+build/%.o: %.s Makefile | build
+#  recipe to execute (from 'Makefile', line 104):
+	@mkdir -p $(dir ${@})
+	${AS} -c ${ASFLAGS} -o ${@} ${<}
+
+# 3 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+.gdbinit.tmpl-riscv:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PRECIOUS: %.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-18 14:15:12
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 111):
+	rm -f *.tex *.dvi *.idx *.aux *.log *.ind *.ilg
+	rm -f ${KERNEL_IMG} ${KERNEL_ASM}
+	rm -fr ${DIR_BUILD}
+	rm -f .gdbinit
+
+kernel: lib/hw.lib lib/mem.lib lib/console.lib kernel.ld | build
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'Makefile', line 92):
+	${LD} ${LDFLAGS} -o ${@} ${OBJECTS} ${LDLIBS} ${LDLIBS}
+	${OBJDUMP} --source ${KERNEL_IMG} > ${KERNEL_ASM}
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+kernel.ld:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-07 14:47:02
+#  File has been updated.
+#  Successfully updated.
+
+all: kernel
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+build:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'Makefile', line 108):
+	mkdir ${@}
+
+# Not a target:
+lib/mem.lib:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-07 14:47:02
+#  File has been updated.
+#  Successfully updated.
+
+qemu: kernel
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 127):
+	${QEMU} ${QEMUOPTS}
+
+# Not a target:
+lib/hw.lib:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-07 14:47:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+%.o:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+qemu-gdb: kernel .gdbinit
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 133):
+	@echo "*** Now run 'gdb-multiarch' in another window with target remote args 'localhost:${GDBPORT}'." 1>&2
+	${QEMU} ${QEMUOPTS} -S ${QEMUGDB}
+
+# Not a target:
+lib/console.lib:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-07 14:47:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.gdbinit: .gdbinit.tmpl-riscv
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 130):
+	sed "s/:1234/:${GDBPORT}/" < ${^} > ${@}
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=0/42=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 30 / storage = 226 B / avg = 7 B
+# current buf: size = 8162 B / used = 226 B / count = 30 / avg = 7 B
+
+# strcache performance: lookups = 60 / hit rate = 50%
+# hash-table stats:
+# Load=30/8192=0%, Rehash=0, Collisions=0/60=0%
+# Finished Make data base on Thu Aug 18 12:39:44 2022
+
+ 
