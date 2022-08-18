@@ -1,15 +1,10 @@
-#include "../lib/console.h"
+#include "../h/console.h"
 
 int main(){
-    __putc('O');
-    __putc('S');
-    __putc('1');
-    __putc('\n');
+    print_str("OS1");
+    print_newline();
 
-    while(1){
-        char c = __getc();
-        __putc(c + 30);
-    }
-    
+    while(1);
+
     return 0;
 }

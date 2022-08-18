@@ -23,6 +23,15 @@ operable program or batch file.
 'find' is not recognized as an internal or external command,
 operable program or batch file.
 
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
+'find' is not recognized as an internal or external command,
+operable program or batch file.
+
 # GNU Make 4.3
 # Built for Windows32
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -30,7 +39,7 @@ operable program or batch file.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug 18 12:39:44 2022
+# Make data base, printed on Thu Aug 18 14:28:59 2022
 
 # Variables
 
@@ -50,12 +59,13 @@ LC_ALL = C
 USERPROFILE = C:\Users\VGenesis
 # environment
 VBOX_MSI_INSTALL_PATH = D:\Tools\VirtualBox\
-# makefile (from 'Makefile', line 119)
+# 
+ makefile (from 'Makefile', line 119)
 QEMUGDB = $(shell if ${QEMU} -help | grep -q '^-gdb'; then echo "-gdb tcp::${GDBPORT}"; else echo "-s -p ${GDBPORT}"; fi)
 # environment
 LOCALAPPDATA = C:\Users\VGenesis\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0476590a-98ff-4095-8d50-9a6d683c042d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-fbf7f9fb-e8ba-4785-a249-fb62bc7aac0d-sock
 # makefile (from 'Makefile', line 117)
 GDBPORT = $(shell expr `id -u` % 5000 + 25000)
 # environment
@@ -95,8 +105,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\VGenesis\AppData\Roaming\VSCodium\CachedData\30d9c6cd9483b2cc586687151b 
-cbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\VGenesis\AppData\Roaming\VSCodium\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -144,7 +153,7 @@ ASFLAGS = -ggdb -march=rv64ima -mabi=lp64
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 14832
+VSCODE_PID = 2800
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -298,7 +307,7 @@ SOURCES_ASM = $(shell find . -name "*.S" -printf "%P ")
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 # variable set hash-table stats:
-# Load=131/1024=13%, Rehash=0, Collisions=16/270=6%
+# Load=131/1024=13%, Rehash=0, Collisions=20/307=7%
 
 # Pattern-specific Variable Values
 
@@ -306,10 +315,10 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 
 # Directories
 
-# build: could not be stat'd.
-# . (key d:/Tools/Workspace/OS Kernel, mtime 1660814899): 12 files, no impossibilities.
+# build (key d:/Tools/Workspace/OS Kernel/build, mtime 1660820562): 3 files, no impossibilities.
+# . (key d:/Tools/Workspace/OS Kernel, mtime 1660820583): 12 files, no impossibilities.
 
-# 12 files, no impossibilities in 2 directories.
+# 15 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -359,13 +368,32 @@ clean:
 	rm -fr ${DIR_BUILD}
 	rm -f .gdbinit
 
+# 'override' directive
+kernel: .SHELLSTATUS := 1
 kernel: lib/hw.lib lib/mem.lib lib/console.lib kernel.ld | build
 #  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
+# automatic
+# @ := kernel
+# automatic
+# * := 
+# automatic
+# < := lib/hw.lib
+# automatic
+# + := lib/hw.lib lib/mem.lib lib/console.lib kernel.ld
+# automatic
+# % := 
+# automatic
+# ^ := lib/hw.lib lib/mem.lib lib/console.lib kernel.ld
+# automatic
+# ? := lib/hw.lib lib/mem.lib lib/console.lib kernel.ld
+# automatic
+# | := build
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+# Load=9/32=28%, Rehash=0, Collisions=9/52=17%
 #  recipe to execute (from 'Makefile', line 92):
 	${LD} ${LDFLAGS} -o ${@} ${OBJECTS} ${LDLIBS} ${LDLIBS}
 	${OBJDUMP} --source ${KERNEL_IMG} > ${KERNEL_ASM}
@@ -390,32 +418,13 @@ all: kernel
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/40=0%
 
 build:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
+#  Last modified 2022-08-18 13:02:42
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := build
-# automatic
-# * := 
-# automatic
-# < := 
-# automatic
-# + := 
-# automatic
-# % := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 108):
 	mkdir ${@}
 
@@ -483,12 +492,12 @@ lib/console.lib:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 226 B / avg = 7 B
-# current buf: size = 8162 B / used = 226 B / count = 30 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 217 B / avg = 7 B
+# current buf: size = 8162 B / used = 217 B / count = 29 / avg = 7 B
 
-# strcache performance: lookups = 60 / hit rate = 50%
+# strcache performance: lookups = 63 / hit rate = 53%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=0/60=0%
-# Finished Make data base on Thu Aug 18 12:39:44 2022
+# Load=29/8192=0%, Rehash=0, Collisions=0/63=0%
+# Finished Make data base on Thu Aug 18 14:28:59 2022
 
  
